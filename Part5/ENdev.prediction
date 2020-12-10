@@ -76,8 +76,8 @@ Express I-NP
 Bank I-NP
 earnings I-NP
 fell B-VP
-50 B-ADJP
-% I-ADJP
+50 B-NP
+% I-NP
 to B-PP
 $ B-NP
 21.3 I-NP
@@ -228,7 +228,7 @@ difference I-NP
 of B-PP
 only B-NP
 $ I-NP
-50 B-PP
+50 I-NP
 a B-NP
 year I-NP
 . O
@@ -458,8 +458,8 @@ continue B-VP
 to I-VP
 grow I-VP
 `` O
-20 B-ADJP
-% I-ADJP
+20 B-NP
+% I-NP
 to B-PP
 30 B-NP
 % I-NP
@@ -631,7 +631,7 @@ in B-PP
 , O
 thanks B-ADVP
 to B-PP
-1986 I-PP
+1986 B-NP
 's B-NP
 tax I-NP
 act I-NP
@@ -889,8 +889,8 @@ Also B-ADVP
 , O
 profit B-NP
 rose B-VP
-19 B-ADJP
-% I-ADJP
+19 B-NP
+% I-NP
 in B-PP
 the B-NP
 third I-NP
@@ -1058,9 +1058,9 @@ case I-NP
 That B-NP
 rose B-VP
 to I-VP
-nearly B-ADJP
-18 I-ADJP
-% I-ADJP
+nearly B-NP
+18 I-NP
+% I-NP
 during B-PP
 the B-NP
 Depression I-NP
@@ -1100,9 +1100,9 @@ Service B-NP
 
 Fanuc B-NP
 gained B-VP
-100 I-VP
-to I-VP
-7,580 B-PRT
+100 B-NP
+to B-VP
+7,580 B-ADJP
 . O
 
 Forecasts B-ADVP
@@ -1245,10 +1245,10 @@ heat I-NP
 for B-PP
 as B-ADVP
 long I-ADVP
-as I-ADVP
-10 I-ADVP
-or O
-11 B-NP
+as B-SBAR
+10 B-NP
+or I-NP
+11 I-NP
 hours I-NP
 before B-ADVP
 quieting I-ADVP
@@ -1772,8 +1772,8 @@ values I-NP
 Food B-NP
 prices I-NP
 rose B-VP
-0.2 B-ADJP
-% I-ADJP
+0.2 B-NP
+% I-NP
 for B-PP
 the B-NP
 second I-NP
@@ -1841,8 +1841,8 @@ to I-VP
 file I-VP
 under B-PP
 Chapter B-NP
-11 B-SBAR
-if I-SBAR
+11 I-NP
+if B-SBAR
 it B-NP
 ca B-VP
 n't I-VP
@@ -1940,8 +1940,8 @@ Eurocom B-NP
 which B-NP
 had B-VP
 held I-VP
-20 B-ADJP
-% I-ADJP
+20 B-NP
+% I-NP
 of B-PP
 WCRS B-NP
 's B-NP
@@ -2048,8 +2048,8 @@ outstanding B-ADJP
 
 Revenue B-NP
 dropped B-VP
-1.6 B-ADJP
-% I-ADJP
+1.6 B-NP
+% I-NP
 to B-PP
 $ B-NP
 1.21 I-NP
@@ -2095,8 +2095,8 @@ directors B-NP
 increasing B-VP
 the B-NP
 board I-NP
-to B-VP
-10 B-ADJP
+to B-PP
+10 B-NP
 . O
 
 Among B-PP
@@ -2619,9 +2619,9 @@ banks B-NP
 would B-VP
 normally I-VP
 have I-VP
-loaned B-ADJP
-65 I-ADJP
-% I-ADJP
+loaned B-PRT
+65 B-NP
+% I-NP
 of B-PP
 a B-NP
 total I-NP
@@ -2852,8 +2852,8 @@ said B-VP
 third-quarter B-NP
 net I-NP
 plunged B-VP
-51 B-ADJP
-% I-ADJP
+51 B-NP
+% I-NP
 to B-PP
 $ B-NP
 9.9 I-NP
@@ -3039,8 +3039,8 @@ said B-VP
 third-quarter B-NP
 earnings I-NP
 fell B-VP
-13 B-ADJP
-% I-ADJP
+13 B-NP
+% I-NP
 to B-PP
 $ B-NP
 46.1 I-NP
@@ -3064,15 +3064,15 @@ $ I-NP
 18.4 I-NP
 billion I-NP
 fiscal I-NP
-1990 B-PP
-Treasury B-NP
+1990 I-NP
+Treasury I-NP
 and O
 Postal B-NP
 Service I-NP
 bill I-NP
 providing B-VP
 $ B-NP
-5.5 I-NP
+5.5 B-NP
 billion I-NP
 for B-PP
 the B-NP
@@ -3161,8 +3161,8 @@ said B-VP
 third-quarter B-NP
 sales I-NP
 increased B-VP
-4 B-ADJP
-% I-ADJP
+4 B-NP
+% I-NP
 to B-PP
 $ B-NP
 1.44 I-NP
@@ -3318,7 +3318,7 @@ reparations I-NP
 first B-ADVP
 authorized I-ADVP
 in B-PP
-1988 B-ADJP
+1988 B-NP
 . O
 
 In B-PP
@@ -4039,8 +4039,8 @@ such B-NP
 work I-NP
 after B-PP
 a B-NP
-1971 B-CONJP
-tremblor I-CONJP
+1971 I-NP
+tremblor I-NP
 in B-PP
 Southern B-NP
 California I-NP
@@ -4106,8 +4106,8 @@ yield I-VP
 , O
 compared B-PP
 with B-PP
-99 B-ADVP
-26\/32 I-ADVP
+99 B-NP
+26\/32 I-NP
 to B-VP
 yield I-VP
 8.007 B-ADJP
@@ -4309,8 +4309,8 @@ credits I-NP
 , O
 profit B-NP
 was B-VP
-6 B-ADJP
-% I-ADJP
+6 B-NP
+% I-NP
 below B-PP
 the B-NP
 second I-NP
@@ -4602,10 +4602,10 @@ to B-PP
 , I-NP
 and I-NP
 Libor I-NP
-plus O
-1.25 B-ADVP
-point I-ADVP
-thereafter I-ADVP
+plus I-NP
+1.25 I-NP
+point B-VP
+thereafter I-VP
 . O
 
 Scott B-NP
@@ -4845,7 +4845,7 @@ million I-NP
 , O
 or O
 $ B-NP
-1.27 B-VP
+1.27 I-NP
 a B-NP
 share I-NP
 . O
@@ -5037,7 +5037,7 @@ process B-NP
 June B-NP
 1 I-NP
 , O
-1987 B-LST
+1987 B-NP
 : O
 
 Frank B-NP
@@ -5194,11 +5194,11 @@ that B-SBAR
 feedlots B-NP
 in B-PP
 the B-NP
-13 B-VP
-biggest B-ADJP
-ranch I-ADJP
-states B-VP
-held I-VP
+13 I-NP
+biggest I-NP
+ranch I-NP
+states I-NP
+held B-VP
 8.06 B-NP
 million I-NP
 cattle I-NP
@@ -5207,8 +5207,8 @@ Oct. B-NP
 1 I-NP
 , O
 down B-ADVP
-6 I-ADVP
-% I-ADVP
+6 B-NP
+% I-NP
 from B-PP
 that B-NP
 date I-NP
@@ -5265,19 +5265,19 @@ with B-PP
 a B-NP
 beta I-NP
 of B-PP
-0.5 I-PP
+0.5 B-NP
 is B-VP
-half B-NP
-as B-ADJP
+half B-ADJP
+as I-ADJP
 volatile I-ADJP
 , O
 one B-NP
 at B-PP
-1.5 I-PP
+1.5 B-NP
 is B-VP
-50 B-NP
-% I-NP
-more B-ADJP
+50 B-ADJP
+% I-ADJP
+more I-ADJP
 volatile I-ADJP
 , O
 and O
@@ -5371,8 +5371,8 @@ Engineering I-NP
 , O
 which B-NP
 rose B-VP
-3 B-ADJP
-1\/2 I-ADJP
+3 B-NP
+1\/2 I-NP
 to B-PP
 22 B-NP
 1\/2 I-NP
@@ -5394,11 +5394,11 @@ Science I-NP
 & I-NP
 Engineering I-NP
 , O
-up B-ADVP
-1\/2 B-NP
-to B-VP
-8 B-ADJP
-1\/2 I-ADJP
+up B-NP
+1\/2 I-NP
+to B-PP
+8 B-NP
+1\/2 I-NP
 . O
 
 At B-PP
@@ -5410,8 +5410,8 @@ Review I-NP
 Board I-NP
 may B-VP
 hear I-VP
-only B-ADVP
-12 I-ADVP
+only B-NP
+12 I-NP
 or O
 so B-NP
 cases I-NP
@@ -5665,9 +5665,9 @@ of B-PP
 `` O
 somewhat B-ADJP
 less I-ADJP
-than I-ADJP
-10 I-ADJP
-% I-ADJP
+than B-PP
+10 B-NP
+% I-NP
 . O
 '' O
 
@@ -6094,8 +6094,8 @@ Group I-NP
 , O
 up B-ADVP
 $ B-NP
-3.25 B-VP
-to I-VP
+3.25 B-NP
+to B-VP
 $ B-ADJP
 102.625 I-ADJP
 ; O
@@ -6105,19 +6105,19 @@ Corp. I-NP
 , O
 up B-ADVP
 $ B-NP
-2.75 B-VP
-to I-VP
-$ B-ADJP
-86.50 I-ADJP
+2.75 I-NP
+to B-PP
+$ B-NP
+86.50 I-NP
 ; O
 Aetna B-NP
 , O
 up B-ADVP
 $ B-NP
-2.375 B-VP
-to I-VP
-$ B-ADJP
-59.50 I-ADJP
+2.375 I-NP
+to B-PP
+$ B-NP
+59.50 I-NP
 ; O
 and O
 Marsh B-NP
@@ -6353,7 +6353,7 @@ on B-PP
 July B-NP
 11 I-NP
 , O
-1988 B-LST
+1988 B-NP
 , O
 the B-NP
 Ashland I-NP
@@ -6512,8 +6512,8 @@ Dun B-NP
 & I-NP
 Bradstreet I-NP
 lost B-VP
-1 I-VP
-7\/8 B-NP
+1 B-NP
+7\/8 I-NP
 to B-PP
 51 B-NP
 7\/8 I-NP
@@ -6624,9 +6624,9 @@ Vanities I-NP
 '' O
 
 Was O
-300 B-ADVP
-ft. I-ADVP
-out I-ADVP
+300 B-NP
+ft. B-VP
+out B-PRT
 on B-PP
 a B-NP
 pier I-NP
@@ -6643,10 +6643,10 @@ to I-VP
 1247.87 B-PRT
 and O
 has B-VP
-now I-VP
-lost I-VP
-21.7 B-ADJP
-% I-ADJP
+now B-ADVP
+lost B-NP
+21.7 I-NP
+% I-NP
 of B-PP
 its B-NP
 value I-NP
@@ -6666,8 +6666,8 @@ and I-NP
 real-estate I-NP
 services I-NP
 jumped B-VP
-23 B-ADJP
-% I-ADJP
+23 B-NP
+% I-NP
 to B-PP
 $ B-NP
 177.4 I-NP
@@ -6823,9 +6823,9 @@ said B-VP
 . O
 
 Your B-NP
-Sept. I-NP
-27 B-PP
-page-one B-NP
+Sept. B-NP
+27 I-NP
+page-one I-NP
 article I-NP
 `` O
 Charleston B-NP
@@ -6975,33 +6975,33 @@ Budweiser B-NP
 '' O
 
 By B-PP
-1982 I-PP
+1982 B-NP
 the B-NP
-ratio I-NP
-was B-VP
-43.5 B-ADJP
-% I-ADJP
-, O
-meaning B-VP
-that B-SBAR
+ratio B-NP
+was B-NP
+43.5 B-NP
+% B-NP
+, B-NP
+meaning B-NP
+that B-NP
 the B-NP
-market I-NP
-was B-VP
-valuing I-VP
+market B-NP
+was B-NP
+valuing B-NP
 every B-NP
-dollar I-NP
-'s B-VP
-worth B-ADJP
-of B-PP
-the B-NP
-average I-NP
-firm I-NP
+dollar B-NP
 's B-NP
-assets I-NP
-at B-PP
+worth B-NP
+of B-NP
+the B-NP
+average B-NP
+firm B-NP
+'s B-NP
+assets B-NP
+at B-NP
 43 B-NP
-cents I-NP
-. O
+cents B-NP
+. B-NP
 
 Though B-SBAR
 Democrats B-NP
@@ -7263,8 +7263,8 @@ to I-VP
 be I-VP
 at B-ADVP
 least I-ADVP
-10 I-ADVP
-% I-ADVP
+10 B-NP
+% I-NP
 of B-PP
 that B-NP
 . O
@@ -7296,9 +7296,9 @@ by B-PP
 the B-NP
 sale I-NP
 of B-PP
-4.1 B-NP
-million I-NP
-shares I-NP
+4.1 B-ADJP
+million O
+shares B-NP
 of I-NP
 treasury I-NP
 stock I-NP
@@ -7654,7 +7654,7 @@ that B-NP
 '' B-NP
 
 In B-PP
-1984 I-PP
+1984 B-NP
 , O
 the B-NP
 Costa I-NP
@@ -7843,8 +7843,8 @@ Equipment I-NP
 's B-NP
 profit I-NP
 fell B-VP
-32 B-ADJP
-% I-ADJP
+32 B-NP
+% I-NP
 in B-PP
 the B-NP
 latest I-NP
@@ -8164,9 +8164,9 @@ from B-PP
 March B-NP
 31 I-NP
 , O
-1992 B-LST
+1992 B-NP
 , O
-at B-ADVP
+at B-PP
 107 B-NP
 3\/4 I-NP
 , O
@@ -8804,8 +8804,8 @@ American B-NP
 Brands I-NP
 shares I-NP
 rose B-VP
-$ B-ADJP
-1.75 I-ADJP
+$ B-NP
+1.75 I-NP
 to B-PP
 $ B-NP
 73 I-NP
@@ -9352,7 +9352,7 @@ Died B-LST
 Alfred B-NP
 Hayes I-NP
 , O
-79 B-LST
+79 B-NP
 , O
 former B-NP
 president I-NP
@@ -9605,8 +9605,8 @@ in B-PP
 1988 B-NP
 , O
 involves B-VP
-about B-PP
-350 B-NP
+about B-NP
+350 I-NP
 IRS I-NP
 agents I-NP
 . O
@@ -9683,7 +9683,7 @@ were B-VP
 triggered I-VP
 in B-PP
 June B-NP
-1987 B-VP
+1987 I-NP
 due B-ADJP
 to B-PP
 charges B-NP
@@ -9789,8 +9789,8 @@ which B-NP
 charges I-NP
 a B-NP
 $ I-NP
-1 B-PP
-toll B-NP
+1 I-NP
+toll I-NP
 each B-NP
 way I-NP
 , O
@@ -9829,9 +9829,9 @@ Treasury I-NP
 bonds I-NP
 climbed B-VP
 back B-ADVP
-above I-ADVP
-8 I-ADVP
-% I-ADVP
+above B-PP
+8 B-NP
+% I-NP
 , O
 ending B-VP
 the B-NP
@@ -10044,8 +10044,8 @@ the B-NP
 second I-NP
 quarter I-NP
 's B-VP
-2.5 B-ADJP
-% I-ADJP
+2.5 B-NP
+% I-NP
 , O
 according B-PP
 to B-PP
@@ -10139,11 +10139,11 @@ The B-NP
 industrial I-NP
 average I-NP
 closed B-VP
-down B-ADVP
-18.65 I-ADVP
-, O
+down B-PRT
+18.65 B-NP
+, I-NP
 to B-PP
-2638.73 I-PP
+2638.73 B-NP
 . O
 
 Even B-SBAR
@@ -10253,8 +10253,8 @@ reorganization I-NP
 
 Sales B-NP
 rose B-VP
-11 B-ADJP
-% I-ADJP
+11 B-NP
+% I-NP
 to B-PP
 $ B-NP
 7.73 I-NP
@@ -10459,7 +10459,7 @@ after B-PP
 Nov. B-NP
 30 I-NP
 , O
-1992 B-LST
+1992 B-NP
 . O
 
 Mr. B-NP
@@ -10493,7 +10493,7 @@ closed B-VP
 yesterday B-NP
 at B-PP
 $ B-NP
-6 B-PP
+6 I-NP
 a B-NP
 share I-NP
 , O
@@ -10661,13 +10661,13 @@ Jersey I-NP
 Turnpike I-NP
 Authority I-NP
 's B-VP
-7.20 B-NP
-% I-NP
-issue I-NP
+7.20 B-ADJP
+% I-ADJP
+issue B-NP
 of B-PP
-2018 I-PP
+2018 B-NP
 was B-VP
-off B-ADVP
+off B-PRT
 1\/4 B-NP
 point I-NP
 at B-PP
@@ -11414,8 +11414,8 @@ rate I-NP
 paid B-VP
 yesterday B-NP
 by B-PP
-100 I-PP
-large B-NP
+100 B-NP
+large I-NP
 banks I-NP
 and I-NP
 thrifts I-NP
@@ -11493,8 +11493,8 @@ that B-SBAR
 if I-SBAR
 it B-NP
 takes B-VP
-only B-NP
-43 I-NP
+only I-VP
+43 B-NP
 cents I-NP
 to B-VP
 buy I-VP
@@ -11543,8 +11543,8 @@ Gillette B-NP
 net B-NP
 income I-NP
 declined B-VP
-1 B-ADJP
-% I-ADJP
+1 B-NP
+% I-NP
 to B-PP
 $ B-NP
 205.3 I-NP
@@ -11552,18 +11552,18 @@ million I-NP
 , O
 or O
 $ B-NP
-2.02 B-VP
+2.02 B-NP
 a B-NP
 share I-NP
 , O
 from B-PP
 $ B-NP
-207 I-NP
+207 B-NP
 million I-NP
 , O
 or O
 $ B-NP
-1.82 B-VP
+1.82 I-NP
 a B-NP
 share I-NP
 , O
@@ -11778,7 +11778,7 @@ directly B-ADVP
 to B-PP
 reassess I-PP
 its B-NP
-1973 B-SBAR
+1973 B-NP
 Roe B-NP
 v. B-PP
 Wade B-NP
@@ -11809,8 +11809,8 @@ also B-ADVP
 said B-VP
 it B-NP
 repurchased B-VP
-about B-PP
-1.2 B-NP
+about B-NP
+1.2 I-NP
 million I-NP
 of B-PP
 its B-NP
@@ -12095,8 +12095,8 @@ buildings B-NP
 Los B-NP
 Angeles I-NP
 dispatched B-VP
-32 I-VP
-inspectors B-NP
+32 B-NP
+inspectors I-NP
 to B-VP
 help I-VP
 . O
@@ -12120,10 +12120,10 @@ Ford B-NP
 's B-VP
 Jaguar B-NP
 stake I-NP
-to B-VP
-about B-ADJP
-15 I-ADJP
-% I-ADJP
+to B-PP
+about B-NP
+15 I-NP
+% I-NP
 . O
 
 `` O
@@ -12390,8 +12390,8 @@ average I-NP
 fund I-NP
 has B-VP
 lost I-VP
-3.3 B-ADJP
-% I-ADJP
+3.3 B-NP
+% I-NP
 . O
 
 The B-NP
@@ -12474,9 +12474,9 @@ bought I-VP
 and I-VP
 sold I-VP
 more B-ADJP
-than B-SBAR
-100 I-SBAR
-companies B-NP
+than B-PP
+100 B-NP
+companies I-NP
 during B-PP
 the B-NP
 past I-NP
@@ -12542,7 +12542,7 @@ bonds I-NP
 
 Returns B-ADVP
 for B-PP
-1988 I-PP
+1988 B-NP
 from B-PP
 people B-NP
 with B-PP
@@ -12793,11 +12793,11 @@ months I-NP
 , O
 net B-NP
 fell B-VP
-3 B-ADJP
-% I-ADJP
+3 B-NP
+% I-NP
 to B-PP
 $ B-NP
-106 I-NP
+106 B-NP
 million I-NP
 , O
 or O
@@ -12813,7 +12813,7 @@ million I-NP
 , O
 or O
 $ B-NP
-1.05 B-VP
+1.05 I-NP
 a B-NP
 share I-NP
 . O
@@ -12948,8 +12948,8 @@ of B-PP
 29\/32 I-NP
 to B-VP
 yield I-VP
-8.03 B-ADJP
-% I-ADJP
+8.03 B-NP
+% I-NP
 , O
 compared B-PP
 with B-PP
@@ -12957,9 +12957,9 @@ with B-PP
 28\/32 I-NP
 to B-VP
 yield I-VP
-8.04 B-ADJP
-% I-ADJP
-Tuesday B-NP
+8.04 B-NP
+% I-NP
+Tuesday I-NP
 . O
 
 In B-PP
@@ -13154,9 +13154,9 @@ operators I-NP
 
 Net B-NP
 was B-VP
-up B-ADVP
-69 B-ADJP
-% I-ADJP
+up B-PRT
+69 B-NP
+% I-NP
 from B-PP
 $ B-NP
 15.1 I-NP
@@ -13267,10 +13267,10 @@ of B-PP
 unhusked B-NP
 rice I-NP
 , O
-more B-ADJP
-than I-ADJP
-10 I-ADJP
-% I-ADJP
+more B-NP
+than I-NP
+10 I-NP
+% I-NP
 of B-PP
 the B-NP
 country I-NP
@@ -13319,9 +13319,9 @@ mornings I-NP
 The B-NP
 buy-back I-NP
 represents B-VP
-about B-ADJP
-3 I-ADJP
-% I-ADJP
+about B-PP
+3 B-NP
+% I-NP
 of B-PP
 the B-NP
 company I-NP
@@ -13558,9 +13558,9 @@ company I-NP
 dispatched B-VP
 as B-PP
 many B-NP
-as B-SBAR
-200 I-SBAR
-people B-NP
+as I-NP
+200 I-NP
+people I-NP
 in B-PP
 the B-NP
 San I-NP
@@ -13889,14 +13889,14 @@ in B-PP
 the B-NP
 U.S. I-NP
 rose B-VP
-14 B-ADJP
-% I-ADJP
-to B-PP
-131,146 I-PP
+14 B-NP
+% I-NP
+to B-VP
+131,146 B-ADJP
 between B-PP
 1983 B-NP
-and O
-1987 B-INTJ
+and I-NP
+1987 I-NP
 , O
 the B-NP
 last I-NP
@@ -13968,8 +13968,8 @@ U.S. I-NP
 is B-VP
 now B-ADVP
 about B-PP
-4 I-PP
-1\/4 B-NP
+4 B-NP
+1\/4 I-NP
 times I-NP
 as B-PP
 high B-NP
@@ -14046,8 +14046,8 @@ said B-NP
 
 Sales B-NP
 rose B-VP
-14 B-ADJP
-% I-ADJP
+14 B-NP
+% I-NP
 to B-PP
 $ B-NP
 715 I-NP
@@ -14114,8 +14114,8 @@ hand I-NP
 Valley B-NP
 National I-NP
 tumbled B-VP
-24 B-ADJP
-% I-ADJP
+24 B-NP
+% I-NP
 after B-PP
 reporting B-VP
 a B-NP
@@ -14176,8 +14176,8 @@ period I-NP
 ; O
 the B-NP
 $ I-NP
-1 B-CONJP
-billion-plus I-CONJP
+1 I-NP
+billion-plus I-NP
 in B-PP
 losses B-NP
 to B-PP
@@ -14503,8 +14503,8 @@ $ I-NP
 of B-PP
 term B-NP
 bonds I-NP
-due B-ADJP
-2006 I-ADJP
+due B-PP
+2006 B-NP
 and O
 the B-NP
 $ I-NP
@@ -14512,8 +14512,8 @@ $ I-NP
 of B-PP
 term B-NP
 bonds I-NP
-due B-ADJP
-2009 I-ADJP
+due I-NP
+2009 I-NP
 are B-VP
 n't I-VP
 being I-VP
@@ -14891,7 +14891,7 @@ material I-NP
 valued B-VP
 at B-PP
 $ B-NP
-13.6 I-NP
+13.6 B-NP
 million I-NP
 . O
 
@@ -15658,8 +15658,8 @@ was B-VP
 priced I-VP
 to I-VP
 yield I-VP
-13.75 B-ADJP
-% I-ADJP
+13.75 B-NP
+% I-NP
 to B-PP
 15.75 B-NP
 % I-NP
@@ -15705,8 +15705,8 @@ few I-NP
 blocks I-NP
 away B-ADVP
 at B-PP
-1 I-PP
-Chase B-NP
+1 B-NP
+Chase I-NP
 Manhattan I-NP
 Plaza I-NP
 . O
@@ -15723,7 +15723,7 @@ than I-NP
 tenfold B-ADVP
 to B-VP
 $ B-NP
-3.9 I-NP
+3.9 B-NP
 million I-NP
 , O
 or O
@@ -16008,8 +16008,8 @@ Corp. I-NP
 third-quarter B-NP
 profit I-NP
 dropped B-VP
-17 B-ADJP
-% I-ADJP
+17 B-NP
+% I-NP
 , O
 reflecting B-VP
 price B-NP
@@ -16062,9 +16062,9 @@ is B-VP
 offering I-VP
 the B-NP
 notes I-NP
-as B-CONJP
-6 I-CONJP
-3\/4 B-NP
+as B-PP
+6 B-NP
+3\/4 I-NP
 % I-NP
 securities I-NP
 priced B-VP
@@ -16143,8 +16143,8 @@ that B-NP
 Pathe I-NP
 will B-VP
 take I-VP
-50 B-ADJP
-% I-ADJP
+50 B-NP
+% I-NP
 of B-PP
 Odeon B-NP
 , O
@@ -16155,8 +16155,8 @@ Bruno B-CONJP
 Lucisano I-CONJP
 will B-VP
 take I-VP
-10 B-ADJP
-% I-ADJP
+10 B-NP
+% I-NP
 and O
 the B-NP
 remaining B-VP
@@ -16524,11 +16524,11 @@ Dow I-NP
 Jones I-NP
 industrials I-NP
 closed B-VP
-up B-ADVP
-39.55 I-ADVP
-, O
-at B-ADVP
-2683.20 I-ADVP
+up B-PRT
+39.55 B-NP
+, I-NP
+at B-PP
+2683.20 B-NP
 , O
 after B-SBAR
 rising B-VP
@@ -16556,10 +16556,10 @@ Co. I-NP
 , O
 up B-ADVP
 $ B-NP
-2.75 B-VP
-to I-VP
-$ B-ADJP
-28.75 I-ADJP
+2.75 I-NP
+to B-PP
+$ B-NP
+28.75 I-NP
 , O
 and O
 Lone B-NP
@@ -16569,10 +16569,10 @@ Inc. I-NP
 , O
 up B-ADVP
 $ B-NP
-1.75 B-VP
-to I-VP
-$ B-ADJP
-29.25 I-ADJP
+1.75 I-NP
+to B-PP
+$ B-NP
+29.25 I-NP
 . O
 
 The B-NP
@@ -16640,9 +16640,9 @@ between B-PP
 the B-NP
 ages I-NP
 of B-PP
-35 I-PP
-and I-PP
-44 I-PP
+35 B-NP
+and O
+44 B-NP
 a B-NP
 decade I-NP
 apart B-ADVP
@@ -16743,11 +16743,11 @@ at B-PP
 a B-NP
 price I-NP
 of B-PP
-99 I-PP
-26\/32 I-PP
-to B-PP
-yield B-NP
-8 I-NP
+99 B-NP
+26\/32 I-NP
+to B-VP
+yield I-VP
+8 B-NP
 % I-NP
 , O
 compared B-PP
@@ -16756,8 +16756,8 @@ with B-PP
 25\/32 I-NP
 to B-VP
 yield I-VP
-8.01 B-ADJP
-% I-ADJP
+8.01 B-NP
+% I-NP
 . O
 
 B.A.T B-NP
@@ -16911,12 +16911,12 @@ Declining B-NP
 issues I-NP
 outnumbered B-VP
 advancers B-NP
-505-455 I-NP
-, O
-with B-PP
-172 I-PP
-unchanged B-ADJP
-. O
+505-455 B-PP
+, B-NP
+with B-NP
+172 B-NP
+unchanged B-NP
+. B-NP
 
 In B-PP
 the B-NP
@@ -17317,8 +17317,8 @@ stocks I-NP
 had B-VP
 been I-VP
 increased I-VP
-to I-VP
-50 B-PRT
+to B-PP
+50 B-NP
 and O
 the B-NP
 options I-NP
@@ -18576,7 +18576,7 @@ islands I-NP
 were B-VP
 curtailed I-VP
 in B-PP
-1982 I-PP
+1982 B-NP
 by B-PP
 the B-NP
 Coastal I-NP
@@ -18616,9 +18616,9 @@ Prideaux I-NP
 
 The B-NP
 Commodore B-NP
-64 B-ADJP
-and I-ADJP
-128 I-ADJP
+64 B-NP
+and I-NP
+128 I-NP
 , O
 mainly B-ADVP
 used B-VP
@@ -18740,8 +18740,8 @@ third-quarter B-NP
 net I-NP
 income I-NP
 fell B-VP
-17 B-ADJP
-% I-ADJP
+17 B-NP
+% I-NP
 . O
 
 `` O
@@ -19480,8 +19480,8 @@ disclose I-VP
 plans B-VP
 to I-VP
 purchase I-VP
-15 B-ADJP
-% I-ADJP
+15 B-NP
+% I-NP
 of B-PP
 the B-NP
 company I-NP
@@ -19589,7 +19589,7 @@ lose I-VP
 . O
 
 In B-PP
-1986 I-PP
+1986 B-NP
 , O
 Stamford B-NP
 officials I-NP
@@ -19974,8 +19974,8 @@ The B-NP
 % I-NP
 notes B-VP
 yield I-VP
-6.25 B-ADJP
-% I-ADJP
+6.25 B-NP
+% I-NP
 . O
 
 Mayer B-NP
@@ -20011,9 +20011,9 @@ says B-VP
 it B-NP
 'd B-VP
 create I-VP
-600 B-PRT
-jobs B-NP
-and I-NP
+600 B-NP
+jobs I-NP
+and O
 bring B-VP
 Cleveland B-NP
 tourist I-NP
@@ -20190,8 +20190,8 @@ Andersson I-NP
 , O
 who B-NP
 owns B-VP
-1.7 B-ADJP
-% I-ADJP
+1.7 B-NP
+% I-NP
 of B-PP
 the B-NP
 company I-NP
@@ -20350,7 +20350,7 @@ The B-NP
 results I-NP
 include B-VP
 $ B-NP
-106 I-NP
+106 B-NP
 million I-NP
 of B-PP
 tax B-NP
@@ -20761,7 +20761,7 @@ manager I-NP
 March B-NP
 24 I-NP
 , O
-1986 B-LST
+1986 B-NP
 : O
 
 Viktor B-INTJ
@@ -20823,7 +20823,7 @@ April B-NP
 26 I-NP
 , O
 1973 B-NP
-, I-NP
+, O
 in B-PP
 what B-NP
 had B-VP
@@ -20836,7 +20836,7 @@ lunchroom I-NP
 . O
 
 The B-NP
-235 B-VP
+235 I-NP
 general-purpose B-NP
 funds I-NP
 increased B-VP
@@ -20847,9 +20847,9 @@ to B-PP
 $ B-NP
 116.56 I-NP
 billion I-NP
-, O
-while B-SBAR
-96 B-NP
+, I-NP
+while I-NP
+96 I-NP
 broker-dealer I-NP
 funds I-NP
 increased B-VP
@@ -21101,7 +21101,7 @@ $ B-NP
 million I-NP
 and O
 $ B-NP
-76 I-NP
+76 B-NP
 million I-NP
 , O
 from B-PP
@@ -21136,7 +21136,7 @@ to B-PP
 June B-NP
 30 I-NP
 , O
-1989 B-LST
+1989 B-NP
 . O
 
 The B-NP
@@ -21156,7 +21156,7 @@ $ B-NP
 , O
 up B-ADVP
 $ B-NP
-1.25 B-VP
+1.25 I-NP
 a B-NP
 share I-NP
 , O
@@ -21562,7 +21562,7 @@ million I-NP
 , O
 or O
 $ B-NP
-3.65 B-VP
+3.65 I-NP
 a B-NP
 share I-NP
 , O
@@ -21735,18 +21735,18 @@ on B-PP
 the B-NP
 close I-NP
 of B-PP
-1969 I-PP
+1969 B-NP
 equaling B-VP
-100 B-ADVP
+100 B-NP
 . O
 
 Misawa B-NP
 Homes I-NP
 was B-VP
-up B-ADVP
-20 I-ADVP
+up B-PRT
+20 B-NP
 at B-PP
-2,960 B-ADJP
+2,960 B-NP
 . O
 
 And O
@@ -22044,9 +22044,9 @@ well B-ADVP
 below B-PP
 the B-NP
 industry I-NP
-'s B-VP
-4 B-ADJP
-% I-ADJP
+'s B-NP
+4 I-NP
+% I-NP
 to B-PP
 5 B-NP
 % I-NP
@@ -22155,8 +22155,8 @@ average I-NP
 simple I-NP
 yield I-NP
 was B-VP
-8.26 B-ADJP
-% I-ADJP
+8.26 B-NP
+% I-NP
 , O
 compared B-PP
 with B-PP
@@ -22173,8 +22173,8 @@ compound I-NP
 yield I-NP
 slid B-VP
 to I-VP
-8.60 B-ADJP
-% I-ADJP
+8.60 B-NP
+% I-NP
 from B-PP
 8.61 B-NP
 % I-NP
@@ -22263,11 +22263,11 @@ in B-PP
 the B-NP
 Senate I-NP
 between B-PP
-1986 I-PP
-and I-PP
-1987 I-PP
+1986 B-NP
+and I-NP
+1987 I-NP
 -LRB- O
-when O
+when B-ADVP
 control B-NP
 of B-PP
 that B-NP
@@ -22371,11 +22371,11 @@ Hilton B-NP
 knocking B-VP
 the B-NP
 stock I-NP
-down B-ADVP
-21 I-ADVP
-1\/2 B-NP
-to B-VP
-85 B-ADJP
+down B-PP
+21 B-NP
+1\/2 I-NP
+to B-PP
+85 B-NP
 . O
 
 At B-NP
@@ -22979,8 +22979,8 @@ A&W B-NP
 Brands I-NP
 lost B-VP
 1\/4 B-NP
-to B-VP
-27 B-ADJP
+to B-PP
+27 B-NP
 . O
 
 Continental B-NP
@@ -22991,8 +22991,8 @@ third-quarter B-NP
 net I-NP
 income I-NP
 slipped B-VP
-11 B-ADJP
-% I-ADJP
+11 B-NP
+% I-NP
 despite B-PP
 a B-NP
 big I-NP
@@ -23689,7 +23689,7 @@ million I-NP
 , O
 or O
 $ B-NP
-1.29 B-VP
+1.29 I-NP
 a B-NP
 share I-NP
 , O
@@ -23830,8 +23830,8 @@ the B-NP
 second I-NP
 half I-NP
 of B-PP
-1989 I-PP
-than I-PP
+1989 B-NP
+than I-NP
 in B-PP
 the B-NP
 year-earlier I-NP
@@ -23907,9 +23907,9 @@ But O
 revenue B-NP
 declined B-VP
 more B-ADJP
-than I-ADJP
-2 I-ADJP
-% I-ADJP
+than B-PP
+2 B-NP
+% I-NP
 , O
 reflecting B-VP
 in B-PP
@@ -24007,8 +24007,8 @@ of B-PP
 
 Sales B-NP
 rose B-VP
-5.2 B-ADJP
-% I-ADJP
+5.2 B-NP
+% I-NP
 to B-PP
 $ B-NP
 2.04 I-NP
@@ -24024,7 +24024,7 @@ year I-NP
 
 Data B-NP
 for B-PP
-1987 I-PP
+1987 B-NP
 from B-PP
 the B-NP
 National I-NP
@@ -24228,7 +24228,7 @@ trimmed I-VP
 to I-VP
 about B-PP
 $ B-NP
-72 I-NP
+72 B-NP
 million I-NP
 from B-PP
 $ B-NP
@@ -24267,8 +24267,8 @@ $ B-NP
 million I-NP
 , O
 up B-ADVP
-12 I-ADVP
-% I-ADVP
+12 B-NP
+% I-NP
 from B-PP
 $ B-NP
 206 I-NP
@@ -24655,10 +24655,10 @@ Corp. I-NP
 , O
 up B-ADVP
 $ B-NP
-1.25 B-VP
-to I-VP
-$ B-ADJP
-58 I-ADJP
+1.25 I-NP
+to B-PP
+$ B-NP
+58 I-NP
 , O
 and O
 Maxxam B-NP
@@ -24666,10 +24666,10 @@ Inc. I-NP
 , O
 up B-ADVP
 $ B-NP
-3 B-VP
-to I-VP
-$ B-ADJP
-43.75 I-ADJP
+3 I-NP
+to B-PP
+$ B-NP
+43.75 I-NP
 , O
 both B-NP
 reported B-VP
@@ -24780,7 +24780,7 @@ Watergate B-NP
 baby I-NP
 '' O
 in B-PP
-1974 I-PP
+1974 B-NP
 , O
 he B-NP
 ran B-VP
@@ -25125,7 +25125,7 @@ $ B-NP
 billion I-NP
 from B-PP
 $ B-NP
-7.65 I-NP
+7.65 B-NP
 billion I-NP
 . O
 
@@ -25253,11 +25253,11 @@ PRIME I-NP
 RATES I-NP
 : O
 Canada B-NP
-13.50 I-NP
+13.50 B-NP
 % I-NP
 ; O
 Germany B-NP
-8.50 I-NP
+8.50 B-NP
 % I-NP
 ; O
 Japan B-NP
@@ -25265,7 +25265,7 @@ Japan B-NP
 % I-NP
 ; O
 Switzerland B-NP
-8.50 I-NP
+8.50 B-NP
 % I-NP
 ; O
 Britain B-NP
@@ -25522,8 +25522,8 @@ California B-NP
 earthquake I-NP
 initially B-VP
 knocked I-VP
-3.7 B-ADJP
-% I-ADJP
+3.7 B-NP
+% I-NP
 off B-PP
 B.A.T B-NP
 's B-NP
@@ -25590,16 +25590,16 @@ Casualty I-NP
 added B-VP
 2 B-NP
 3\/8 I-NP
-to B-VP
-59 B-ADJP
-1\/2 I-ADJP
+to B-PP
+59 B-NP
+1\/2 I-NP
 and O
 Cigna B-NP
 advanced B-VP
 7\/8 B-NP
-to B-VP
-62 B-ADJP
-1\/2 I-ADJP
+to B-PP
+62 B-NP
+1\/2 I-NP
 . O
 
 -LRB- O
@@ -25880,16 +25880,16 @@ bite B-PRT
 
 Yet B-ADVP
 in B-PP
-1989 I-PP
+1989 B-NP
 , O
 retail B-NP
 participation I-NP
 has B-VP
 been I-VP
 more B-ADJP
-than I-ADJP
-20 I-ADJP
-% I-ADJP
+than B-PP
+20 B-NP
+% I-NP
 in B-PP
 every B-NP
 month I-NP
@@ -25955,9 +25955,9 @@ employees B-NP
 would B-VP
 keep I-VP
 more B-ADJP
-than I-ADJP
-50 I-ADJP
-% I-ADJP
+than B-PP
+50 B-NP
+% I-NP
 . O
 
 A B-NP
@@ -26401,11 +26401,11 @@ Big I-NP
 Board I-NP
 outpaced B-VP
 decliners B-NP
-by B-PP
-822 I-PP
-to I-PP
-668 I-PP
-. O
+by B-NP
+822 B-NP
+to B-NP
+668 B-NP
+. B-NP
 
 `` O
 But O
@@ -26910,8 +26910,8 @@ million I-NP
 offer I-NP
 to B-VP
 buy I-VP
-25 B-ADJP
-% I-ADJP
+25 B-NP
+% I-NP
 of B-PP
 MGM\/UA B-NP
 . O
